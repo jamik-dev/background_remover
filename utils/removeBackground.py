@@ -16,4 +16,4 @@ async def remove_background(img_url):
     response = requests.request("POST", url, data=payload, headers=headers)
     # logging.info(response.json()['response']['image_url'])
     return response.json()['response']['image_url']
-    #bla bla bla
+    #bla bla bla bla
